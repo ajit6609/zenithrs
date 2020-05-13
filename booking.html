@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+  <!-- bootstrapping css link-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <!-- bootstrap jquery code -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
+ <link rel="stylesheet"type="text/css"
+       href="restuarant.css">
+    <title>RESERVATION</title>
+
+    <script src="https://kit.fontawesome.com/c92454c83c.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+<div class="restoo" >
+
+
+        <nav>
+            <ul class="topnav" id="dropdownClick">
+                <li><a class="active" href="index.html">HOME</a></li>
+                <li><a href="Menu.html">MENU</a>
+                <li><a href="booking.html">RESERVATION</a></li>
+                <li><a href="#gallery">IMAGES</a></li>
+                <li><a href="#contact">CONTACT US</a></li>
+                <li><a href="privatehire.html">PRIVATE HIRE</a></li>
+
+
+
+                <li class="dropdownIcon"><a href="javascript:void(0);" onclick="dropdownMenu()">&#9776;</a></li>
+            </ul>
+
+        </nav>
+
+        <script>
+            function dropdownMenu(){
+                var x = document.getElementById("dropdownClick");
+                 if(x.className === "topnav") {
+                    x.className +="responsive";
+
+                 } else {
+                         x.className="topnav";
+                     }
+
+                            /*<img class="image" src="restooo.jpg">*/
+            }
+        </script>
+
+
+
+
+    <div class="reserve" >
+        <section>
+        <h1>
+        <span>Z</span>
+        <span>E</span>
+        <span>N</span>
+        <span>I</span>
+        <span>T</span>
+        <span>H</span>
+        <span>-</span>
+        <span>R</span>
+        <span>E</span>
+        <span>S</span>
+        <span>T</span>
+        <span>O</span>
+        </h1>
+        </section>
+
+        <div class="main">
+            <h2>RESERVE YOUR TABLE</h2>
+            <form>
+                <table>
+                    <tr>
+                        <td>
+                            NAME:
+                        </td>
+                    <td>
+                        <input type="text" placeholder="Name" name="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Mobile_Number:
+                        </td>
+                        <td>
+                        <input type="number" placeholder="mobile number" name="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Email-id:
+                        </td>
+                        <td>
+                        <input type="email" placeholder="Email-id" name="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Number_of_members:
+                        </td>
+                        <td>
+                        <input type="number" placeholder="No. of members" name="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            DATE:
+                        </td>
+                        <td>
+                        <input type="date" placeholder="" name="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            TIME:
+                        </td>
+                        <td>
+                        <input type="time" placeholder="" name="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+
+                            <input class="btn" type="button"  name="" value="RESERVE MY TABLE">
+
+                        </td>
+                        <td>
+
+                        </td>
+                    </tr>
+                </table>
+            </form>
+
+
+        </div>
+    </div>
+</div>
+
+<div class="imagee">
+
+    <h5> RESERVATION </h5>
+    <div class="img">
+    <p>Reservations preferred. Please call at</p>
+    <p>+91 9871117968, +91 9166175151</p>
+    <p>or email:
+        <a  href="reservations.del@indianaccent.com">reservations.del@zenith-resto.com</a></p>
+         <p>open 7 days a week</p>
+        <h6>Lunch</h6>
+     <p>12:00noon – 2:30pm</p>
+     <p>(Last order to be placed by 2:30pm)</p>
+        <h6>Dinner</h6>
+     <p>First seating: starts at 7:00pm</p>
+     <p>Second seating: starts at 9:45pm</p>
+     <p>(Last order 10:30pm)</p>
+
+        </div>
+
+    </div>
+
+
+
+
+
+            <h10>RESERVATION POLICY : </h10>
+            <div class="policy">
+            <h8>
+            Indian Accent is a reservation driven restaurant. We do welcome walk-in guests and will accommodate them as much as possible.
+            </h8>
+                <p></p>
+                <p></p>
+                <p></p>
+                <p></p>
+            <h7>OPEN 7 DAYS A WEEK:</h7>
+<ul><li>Lunch:  12:00noon – 2:30pm (last order to be placed by 2:30pm) Indian Accent follows a strict seating time for dinner i.e. First seating: Starts at 7:00pm Second seating: Starts at 9:45pm (last order 10:30pm)</li></ul>
+<h7>CHILD POLICY:</h7>
+<li>To respect the dining experiences of all our guests, we practice a restricted entrance policy only allowing children aged 10 years and above.</li>
+<h7>RESERVATIONS ARE ACCEPTED BY PHONE OR EMAIL : </h7>
+<ul><li>If you would like to make a reservation, please contact our team at +91 9871117968/+91 11 6617 5151 between 10:00am to 10:00pm or email us at reservations.del@indianaccent.com. Please note that an email reservation request can only be treated as confirmed once our reservation executive has replied to the email confirming the reservation.</li>
+<li>There may be times where our reservation executive may have to call you back to confirm details about your reservation. Please understand this is done only to ensure that we deliver the best experience possible and to maintain proper table spacing times for the day and time requested</li></ul>
+<h7>GROUP BOOKING POLICY:</h7>
+<li>For a reservation request for a group of 4 or more guests, as a policy we would require an advance payment of Rs.1000 per guest to confirm your reservation. Please note that this amount of Rs.1000 per person will be forfeited in case your reservation is cancelled less than 24 hours prior to the confirmed reservation time or in the event of a no show. We will send you a link to initiate the advance payment. Once we have received the advance, we will be sending you a confirmation email with details of your reservation. Please note that this amount will be adjusted against your final bill.</li>
+<h7>RESERVATION TIMING POLICY:</h7>
+<li>Given the limited seating at the restaurant we encourage all our diners to arrive on time for their reservation. In case of no prior intimation, we will only be able to hold your table for half an hour post the reservation time. Please understand this is solely due to the size and seating capacity of the restaurant. We cannot guarantee a table if you have missed your initial reservation. However, if you are late, we urge you to contact us so we can make our best effort to accommodate you and your guests.</li>
+
+<h7>CANCELLATION POLICY / NO SHOWS :</h7>
+<li>Due to the limited seating at the restaurant, we encourage all our diners to keep us informed about any change with regards to their reservation. In case you decide to cancel your reservation, we request you kindly give us a call at +91 9871117968 or +91 11 6617 5151, which will enable us to offer your table to other diners whose reservations have been kept on wait list.</li>
+<h7>OTHER POLICIES : </h7>
+<ul><li>Diners with food allergies should inform their server at the beginning of meal, prior to ordering. Please discuss your food allergies with the server so the chef can adjust your meal.</li>
+    <li>All accompanying guests with you will have to be seated at your table and will not be allowed to stand or wait at the restaurant or other hotel guest areas.</li></ul>
+
+
+
+       </div>
+
+
+
+
+
+
+       <section id="gallery">
+
+
+
+              <h1 class="gallery-text">GALLERY</h1>
+              <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="pic1.jpg" class="d-block w-100 pic" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="pic2.jpg" class="d-block w-100 pic" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="pic3.jpg" class="d-block w-100 pic" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="pic4.jpg" class="d-block w-100 pic" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="pic5.jpg" class="d-block w-100 pic" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="pic6.jpg" class="d-block w-100 pic" alt="...">
+              </div>
+            </div>
+            <a class="carousel-control-prev " href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next " href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+
+         </section>
+
+
+
+
+    <section id="contact">
+
+        <h1 class="end">CONTACT US</h1>
+        <a href="www.instagram.com"><i class="fab fa-instagram icon"></i></a>
+        <a href="www.twitter.com"><i class="fab fa-twitter icon"></i></a>
+        <a href="www.facebook.com"><i class="fab fa-facebook-square icon"></i></a>
+        <p>©techwarriors production </p>
+
+    </section>
+
+
+    </body>
+</html>

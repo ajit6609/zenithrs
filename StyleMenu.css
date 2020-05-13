@@ -1,0 +1,457 @@
+/*##### Defaults #####*/
+
+nav {
+    display: block;
+    position: fixed;
+    z-index: 2;
+}
+
+body {
+    line-height: 1;
+    margin: 0;
+    background-color: #F2D7B4;
+}
+
+.container{
+    width: 100%;
+    margin: auto;
+    padding-top: 5%;
+    padding-bottom: 4%;
+
+}
+
+.row{
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.row::after{
+    display: table;
+    clear:both;
+    content: "";
+}
+
+.col-1{width: 8.33%;}
+.col-2{width: 16.66%;}
+.col-3{width: 25%;}
+.col-4{width: 33.33%;}
+.col-5{width: 41.66%;}
+.col-6{width: 50%;}
+.col-7{width: 58.33%;}
+.col-8{width: 66.66%;}
+.col-9{width: 75;}
+.col-10{width: 83.33%;}
+.col-11{width: 91.66%;}
+.col-12{width: 100%;}
+
+*{
+    box-sizing: border-box;
+}
+
+
+/*##### NavBar #####*/
+
+nav {
+    width: 100%;
+    margin: 0;
+}
+
+nav ul {
+    background-color: #000;
+    overflow: hidden;
+    margin: 0;
+}
+
+ul.navbar li {
+    float: left;
+    list-style: none;
+}
+
+ul.navbar li a {
+    display: block;
+    min-height: 15px;
+    color: #fff;
+    padding: 14px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+ul.navbar li a:hover{
+    background-color: #d6d6c2 ;
+    color: #0066ff;
+}
+
+ul.navbar li.dropdownicon {
+    display: none;
+}
+
+/*##### Custom Styles #####*/
+
+#gradient {
+    background:#8b6f47;
+    background: -webkit-linear-gradient(#8b6f47,#4f3222);
+    background: -o-linear-gradient(#8b6f47,#4f3222);
+    background: -moz-linear-gradient(#8b6f47,#4f3222);
+    background: linear-gradient(#8b6f47,#4f3222);
+}
+
+h1.menu{
+    font-family: 'Satisfy', cursive;
+    font-size: 150px;
+    padding: 0;
+    margin: 0;
+    color: floralwhite;
+    font-style: oblique;
+
+}
+
+h2.slogan {
+    font-family: 'Lobster Two', cursive;
+    font-size: 50px;
+    color: floralwhite;
+    padding: 5px 0px 0px 0px 0px;
+    margin: 0;
+}
+
+
+.left-col{
+    margin-left: 30%;
+    text-align: center;
+}
+
+.right-col{
+    margin-right: 15%;
+    text-align: center;
+}
+
+img.chef {
+    width: 240px;
+    height: 240px;
+    border-radius: 120px;
+
+}
+
+
+.main-container{
+    width: 100%;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+h1.speciality{
+    font-size: 70px;
+    padding: 5px;
+    margin: 0;
+    text-align: center;
+    color: #333300;
+    font-family: 'Lora', serif;
+
+}
+
+div.image-container {
+    margin: auto;
+    background-color: #29a3a3;
+    width: 100%;
+
+}
+
+img.menu-logo{
+    text-align: center;
+    border-style: groove;
+    border-color: black;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    padding: 1%;
+}
+
+.message{
+    font-size: 45px;
+    text-align: center;
+    font-family: 'Satisfy', cursive;
+    color: #664400;
+    background: #F2D7B4;
+    margin: auto;
+    padding: 15px;
+    line-height: 1.5em;
+
+}
+
+.lets-eat{
+    padding-bottom: 50px;
+    padding-top: 0px;
+}
+
+button{
+    font-size: 28px;
+    font-weight: 700;
+    color: #000;
+    background-color: #F2D7B4;
+    padding: 15px 60px;
+    text-align: center;
+    font-family: 'Kaushan Script', cursive;
+    margin: 20px;
+    border-radius:15px;
+    border-style: solid;
+    border-color: black;
+}
+
+button:hover{
+    background: #000;
+    color: #fff;
+    border-color: #fff;
+}
+
+button.eat {
+    margin: auto;
+    display: block;
+}
+
+
+/*##### Slider ######*/
+
+.slider-container{
+    width: 900px;
+    overflow: hidden;
+    margin: auto;
+    box-shadow: 10px 10px 5px rgba(0,0,0,0.5);
+}
+
+.sliderbox{
+    width: 54000px;
+    position: relative;
+    animation: slider 25s infinite;
+}
+
+.sliderbox img{
+    float: left;
+}
+
+
+
+
+#contact{
+  padding: 5%;
+  padding-bottom: 0;
+  text-align: center;
+}
+.end{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+}
+.icon{
+  padding: 3%;
+
+  font-size: 3rem;
+}
+
+
+
+
+@keyframes slider{
+
+    0%{
+        left: 0px;
+    }
+
+    16%{
+        left: 0px;
+    }
+
+    20%{
+        left: -900px;
+    }
+
+    36%{
+        left: -900px;
+    }
+
+    40%{
+        left: -1800px;
+    }
+
+    56%{
+        left: -1800px;
+    }
+
+    60%{
+        left: -2700px;
+    }
+
+    76%{
+        left: -2700px;
+    }
+
+    80%{
+        left: -3600px;
+    }
+
+    96%{
+        left: -3600px;
+    }
+
+    100%{
+        left: -4500px;
+    }
+
+
+}
+
+/*###### Menu Card #####*/
+
+.container-1{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+
+}
+.card-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 1000px;
+    margin: auto;
+
+
+}
+
+.card-box{
+    position: relative;
+    width: 500px;
+    height: 300px;
+    background-color: #fff;
+    margin: 20px;
+    box-shadow: 10px 10px 5px rgba(0,0,0,0.75);
+
+}
+
+.card-box .imgbox{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.card-box .imgbox img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.5s;
+}
+
+.card-box:hover .imgbox img{
+    opacity: 0;
+}
+
+.card-box .card-content{
+    position: absolute;
+    bottom: 20px;
+    left: 10%;
+    width: 80%;
+    height: 60px;
+    background-color: #000;
+    color: #ccc;
+    overflow: hidden;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+
+.card-box:hover .card-content {
+    height: 100%;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+
+.card-box .card-content h3{
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+    text-decoration: underline;
+}
+
+.card-box .card-content p{
+    margin: 10px 0 0;
+    padding: 0;
+    opacity: 0;
+    line-height: 1.5em;
+    transition: 0.5s;
+    text-align: justify;
+    font-size: 20px;
+    word-spacing: 2px;
+}
+
+.card-box:hover .card-content p{
+    opacity: 1;
+    transition-delay: 0.25s;
+
+}
+
+/*##### Mobile #####*/
+
+@media screen and (max-width: 680px) {
+
+    ul.navbar li:not(:nth-child(1)) {
+        display: none;
+    }
+
+    ul.navbar li.dropdownicon {
+        display: block;
+        float: right;
+    }
+
+    ul.navbar.responsive li.dropdownicon{
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    ul.navbar.responsive {
+        position: relative;
+    }
+
+    ul.navbar.responsive li{
+        display: inline;
+        float: none;
+    }
+
+    ul.navbar.responsive li a{
+        display: block;
+        text-align: left;
+    }
+
+    ul.navbar li.dropdownicon a {
+        text-decoration: none;
+    }
+
+    .col-6{
+        width: 100%;
+        margin: 0;
+    }
+
+    img.chef{
+        width: 50%;
+
+    }
+
+    .left-col,
+    .right-col{
+        margin: 15px;
+    }
+
+
+
+}

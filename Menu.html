@@ -1,0 +1,251 @@
+<!Doctype Html>
+<html>
+    <head>
+        <title>Menu_Zenith_Restro</title>
+
+        <!-- bootstrapping css link-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <!-- bootstrap jquery code -->
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+        <link rel="stylesheet" href="StyleMenu.css">
+
+         <script src="https://kit.fontawesome.com/c92454c83c.js" crossorigin="anonymous"></script>
+
+        <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital@1&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,600&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <nav>
+            <ul class="navbar" id="dropdownClick">
+               <li ><a href="index.html">Home</a></li>
+                <li><a href="Menu.html">Menu</a></li>
+                <li> <a href="booking.html">Reservation</a></li>
+                <li> <a href="privatehire.html">Private Hire</a></li>
+                <li> <a href="#contact">CONTACTS</a></li>
+                <li class="dropdownicon"><a href="javascript:void(0);" onclick="dropdownMenu()">&#9776;</a></li>
+            </ul>
+        </nav>
+
+        <script>
+            function dropdownMenu(){
+                var x = document.getElementById("dropdownClick");
+                if(x.className==="navbar"){
+                    x.className += " responsive";
+                    /*change navbar to navbar.responsive*/
+                }
+                else{
+                    x.className = "navbar";
+                }
+            }
+        </script>
+
+       <div class="container" id="gradient">
+            <div class="row">
+                <div class="col-6">
+                    <div class="left-col">
+                        <h1 class="menu">Menu</h1>
+                        <h2 class="slogan">We believe in serving your apetite</h2>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="right-col">
+                        <img src="chef-hat-and-moustache.png" class="chef">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div id="slide-background">
+            <div class="row">
+                <div class="col-12">
+                    <div class="main-container">
+                        <h1 class="speciality">~~~OUR SPECIALS~~~</h1>
+                        <div class="slider-container">
+                            <div class="sliderbox">
+                            <img src="rice%20copy.png">
+                            <img src="meal1%20copy.jpg">
+                            <img src="biryani1%20copy.jpg">
+                            <img src="dessert1%20copy.jpg">
+                            <img src="pasta%20copy.jpg">
+                            <img src="rice%20copy.png">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="image-container">
+                        <img src="restro-menu%20copy.jpg" class="menu-logo">
+                    </div>
+                </div>
+
+              </div>
+        </div>
+
+        <div class="container-1">
+            <div class="card-container">
+                <div class="card-box">
+                    <div class="imgbox">
+                        <img src="breakfast%20copy1.jpg">
+                    </div>
+                    <div class="card-content">
+                        <h3>Breakfast</h3>
+                        <p>
+                            Continental Breakfast Combo - Rs.450<br>
+                            English Breakfast Combo - Rs.500<br>
+                            French Breakfast Combo - Rs.450<br>
+                            Sesame Tahini - Rs.250<br>
+                            French Toast with Avacado Dip - Rs.230<br>
+                            Veggie Frittata Muffins - Rs.280<br>
+                            Veggie Burrito - Rs.250<br>
+                            Red Velvet Pancakes - Rs.300<br>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-container">
+                <div class="card-box">
+                    <div class="imgbox">
+                        <img src="lunch%20copy1.jpg">
+                    </div>
+                    <div class="card-content">
+                        <h3>Lunch</h3>
+                        <p>
+                            Mac and Cheese - Rs.680<br>
+                            Lasagna Rolls - Rs.550<br>
+                            Chicken Pot Pie - Rs.400<br>
+                            Spiced Up Spaghetti - Rs.600<br>
+                            Chilli Con Carne - Rs.700 <br>
+                            Shanghai Fried Rice - Rs.490<br>
+                            Cheesy Casserole - Rs.630<br>
+                            Pasta Italiano With White Sauce - Rs.500<br>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-1">
+            <div class="card-container">
+                <div class="card-box">
+                    <div class="imgbox">
+                        <img src="dinner%20copy1.jpg">
+                    </div>
+                    <div class="card-content">
+                        <h3>Dinner</h3>
+                        <p>
+                            White Pesto Spinach Lasagna - Rs.800<br>
+                            Baked Sausage and Cheese Rigatoni - Rs.700<br>
+                            Mushroom Risotto - Rs.670<br>
+                            Chicken and Dumplings - Rs.740<br>
+                            Royal Biryani - Rs.800<br>
+                            Zuccini Ricotta Galette - Rs.750<br>
+                            Chicken Marsala - Rs.650<br>
+                            Pineapple Chicken And Rice - Rs.700<br>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-container">
+                <div class="card-box">
+                    <div class="imgbox">
+                        <img src="dessert%20copy1.jpg">
+                    </div>
+                    <div class="card-content">
+                        <h3>Dessert</h3>
+                        <p>
+                            Belgian Chocolaty Waffles - Rs.400<br>
+                            The Ultimate CheeseCake - Rs.800<br>
+                            Lemon Yogurt Cake - Rs.550<br>
+                            French Apple Cake - Rs.670<br>
+                            Classic Tiramisu - Rs.480<br>
+                            Lemon Meringue Pie - Rs.500<br>
+                            Cherry Chocolate Tart - Rs.400<br>
+                            Black Bun - Rs.500<br>
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-1">
+            <div class="card-container">
+                <div class="card-box">
+                    <div class="imgbox">
+                        <img src="apetizer%20copy1.jpg">
+                    </div>
+                    <div class="card-content">
+                        <h3>Appetizers</h3>
+                        <p>
+                            Mac 'n Cheese Bites - Rs.250<br>
+                            Gougeres - Rs.280<br>
+                            Ricotta Spinach Tarts - Rs290<br>
+                            Toasted Ravioli - Rs.250<br>
+                            7-Layer Greek Dip - Rs.300<br>
+                            Jalopeno Popper Bites - Rs.270<br>
+                            Mexicano Tacos - Rs.280<br>
+                            Pepperoni Pizza Rolls - Rs.270<br>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-container">
+                <div class="card-box">
+                    <div class="imgbox">
+                        <img src="mocktail%20copy1.png">
+                    </div>
+                    <div class="card-content">
+                        <h3>Mocktails</h3>
+                        <p>
+                            Mango Mule - Rs.300<br>
+                            Cucumber Gimlet - Rs.370<br>
+                            Shirley Ginger - Rs.290<br>
+                            Strawberry Fields - Rs.350<br>
+                            Virgin Watermelon Margarita - Rs.350<br>
+                            Berry Burlesque - Rs.330<br>
+                            Mountain Mojito Mocktail - Rs.350<br>
+                            Strawberry Chamomile Maritini - Rs.300<br>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+                <h2 class="message">Our mission is simple : Serve Delicious, Affordable Food that Guests will want to return to week after week.</h2>
+            </div>
+        </div>
+
+        <div class="row">
+                <div class="col-12">
+                    <div class="lets-eat">
+                        <button class="eat">Let's Eat</button>
+                    </div>
+                </div>
+        </div>
+
+        <section id="contact">
+
+            <h1 class="end">CONTACT US</h1>
+            <a href="www.instagram.com"><i class="fab fa-instagram icon"></i></a>
+            <a href="www.twitter.com"><i class="fab fa-twitter icon"></i></a>
+            <a href="www.facebook.com"><i class="fab fa-facebook-square icon"></i></a>
+            <p>©techwarriors production </p>
+
+        </section>
+
+
+    </body>
+</html>
